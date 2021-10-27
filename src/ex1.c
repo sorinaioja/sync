@@ -32,6 +32,6 @@ int main(){
     g_thread_join(tid1);
     g_thread_join(tid2);
 
-    //g_mutex_destroy(&lock);
+    g_mutex_clear(&lock);
     return 0;
 }
